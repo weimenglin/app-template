@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <title>先見基因科技</title>
+</head>
+
+<body>
+    <!-- for Android -->
+    <a href="javascript:;" onclick="window.open('https://m.i-genomics.com.tw/zh-tw', '_system');"></a>
+    <iframe src="https://m.i-genomics.com.tw/zh-tw" style="position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
+        Bad internet
+    </iframe>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script>
+    $(document).ready(function() {
+      $("a").click();
+    });
+    </script>
+    <!-- for iOS -->
+    <!--iframe src="https://www.i-genomics.com.tw/" style="position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
+        Your browser doesn't support iframes
+    </iframe-->
+    <script type="text/javascript" src="cordova.js"></script>
+</body>
+
+</html>
